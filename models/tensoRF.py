@@ -183,7 +183,7 @@ class TensorVMSplit(TensorBase):
         return grad_vars
 
     def init_feat_codec(self, codec_ckpt_path='', loading_pretrain_param=True, adaptor_q_bit=8, codec_backbone_type="cheng2020-anchor"):
-        from .imageCoder import AdaptorScaleHyperprior, AdaptorMeanScaleHyperprior, AdaptorCheng2020Anchor, AdaptorCheng2020Attention, OnlyDecoderCheng2020Anchor
+        from .imageCoder import AdaptorScaleHyperprior, AdaptorMeanScaleHyperprior, AdaptorCheng2020Anchor, AdaptorCheng2020Attention
         from compressai.zoo.image import model_urls, cfgs
         from compressai.zoo.pretrained import load_pretrained
         from torch.hub import load_state_dict_from_url

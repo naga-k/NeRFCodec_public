@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=7
+# export CUDA_VISIBLE_DEVICES=7
 # train
 python train.py --config configs/chair.txt
 

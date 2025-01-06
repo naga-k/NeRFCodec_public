@@ -6,3 +6,5 @@
 
 log/*
 !log/.gitkeep
+
+/env/*

@@ -1,6 +1,6 @@
 
 dataset_name = blender
-datadir = ../../Dataset/Synthetic_NeRF_nerf/chair
+datadir = /project/jacobcha/nk643/data_src/nerf_synthetic/chair
 expname =  tensorf_chair_VM
 basedir = ./log
 
