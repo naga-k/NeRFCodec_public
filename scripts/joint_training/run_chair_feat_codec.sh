@@ -1,4 +1,4 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 ### per scene joint training
 # now triplane & channel adaptor & reserved coding network are trained together
 python train.py --add_exp_version 1 --expname only_adaptor \
